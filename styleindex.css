@@ -2,16 +2,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0; /* Fondo gris claro */
-  color: #333; /* Color de texto oscuro */
+  background-color: #f0f0f0; 
+  color: #333;
 }
 
-/* Estilo del encabezado */
 header {
-  background-color: #00bcd4; /* Fondo azul claro */
+  background-color: #00bcd4;
   padding: 20px;
   text-align: center;
-  color: #fff; /* Texto en blanco */
+  color: #fff; 
 }
 
 h1 {
@@ -25,52 +24,95 @@ p {
 }
 
 a {
-  color: #00bcd4; /* Enlaces en azul claro */
+  color: #00bcd4;
   text-decoration: none;
   margin-right: 20px;
 }
-
-/* Estilo de la clase "habi" */
 .habi {
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/* Estilo de las imágenes dentro de la clase "habi" */
 .habi img {
-  width: 100px; /* Tamaño uniforme para las imágenes */
+  width: 100px; 
   height: auto;
   margin: 10px;
 }
-
-/* Estilo del menú de navegación en el lado derecho */
 nav {
-  position: fixed;
+  background-color: #00bbd4e1;
   top: 0;
   right: 0;
-  background-color: #00bcd4; /* Fondo azul claro */
-  padding: 20px;
-  text-align: right;
+  bottom: 0;
+  width: 100%; 
+  padding: 10px;
+  box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  display: flex; 
 }
 
 nav li {
-  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 nav a {
-  color: #fff; /* Texto en blanco */
+  color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work, .Analista, .Front {
+  background-color: #fff; 
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 15px rgba(173, 216, 230, 0.5); 
+  text-align: center;
+  width: 300px; 
+}
+
+.work h3, .Analista h3, .Front h3 {
+  color: #00bfff; 
+  font-size: 24px;
+}
+
+.work ul, .Analista ul, .Front ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work li, .Analista li, .Front li {
+  margin-bottom: 10px;
+}
+
+.work a, .Analista a, .Front a {
   display: block;
+  margin-top: 10px;
+}
+
+.work img, .Analista img, .Front img {
+  max-width: 100px;
+  height: auto;
+  margin: 0 auto;
 }
