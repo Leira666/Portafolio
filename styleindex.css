@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Fondo gris claro */
+  color: #333; /* Color de texto oscuro */
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #00bcd4; /* Fondo azul claro */
+  padding: 20px;
+  text-align: center;
+  color: #fff; /* Texto en blanco */
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #00bcd4; /* Enlaces en azul claro */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Estilo de la clase "habi" */
+.habi {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo de las imágenes dentro de la clase "habi" */
+.habi img {
+  width: 100px; /* Tamaño uniforme para las imágenes */
+  height: auto;
+  margin: 10px;
+}
+
+/* Estilo del menú de navegación en el lado derecho */
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #00bcd4; /* Fondo azul claro */
+  padding: 20px;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff; /* Texto en blanco */
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
