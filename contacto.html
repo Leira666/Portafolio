@@ -43,5 +43,22 @@
         </div>
         <a target="_blank" href="https://icons8.com/icon/gWdj3S1n42fu/responsive-web">Responsive Web</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
     </footer>
+    <script>
+        function procesarFormulario() {
+            var mensaje = document.getElementById("mensaje").value;
+            var numeros = mensaje.split(",");
+            var num1 = parseInt(numeros[0]);
+            var num2 = parseInt(numeros[1]);
+            var suma = num1 + num2;
+
+            if (suma > 1000) {
+                alert("La suma del servicio " + num1 + " y mano de obra " + num2 + " es mayor que 1000. El resultado es " + suma + " y se le hará descuento.");
+            } else {
+                alert("La suma del servicio " + num1 + " y mano de obra " + num2 + " no es mayor que 1000. El resultado es " + suma + " y no se le hará descuento.");
+            }
+
+            return false; // Para prevenir que el formulario se envíe y recargue la página
+        }
+		</script>
 </body>
 </html>
