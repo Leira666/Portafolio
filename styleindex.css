@@ -2,8 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #676f9d; 
-  color: #333; 
+  background-color: #2d3250; 
+  color: #fff; 
 }
 
 header {
@@ -36,7 +36,7 @@ a {
   color: #f0f0f0;
 }
 .habi {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #676f9d;
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
