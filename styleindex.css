@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #00bcd4;
+  background-color: #424769;
   padding: 10px;
   width: auto;
   text-align: center;
@@ -51,13 +51,13 @@ a {
   margin: 10px;
 }
 nav {
-  background-color: #00bbd4e1;
+  background-color: #424769;
   top: 0;
   right: 0;
   bottom: 0;
   width: auto; 
   padding: 10px;
-  box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 0px 8px rgba(255, 255, 255, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
