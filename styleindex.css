@@ -96,7 +96,6 @@ section {
 }
 
 .work, .Analista, .Front {
-  background-color: #fff; 
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
@@ -110,7 +109,7 @@ section {
   background-size: 80px, 100px;
 }
 .resu{
-  background-color: #fff; 
+  background-color: #676f9d; 
   border-radius: 10px;
   padding: 20px;
   margin: 50px 50px;
