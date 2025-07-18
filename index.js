@@ -1,4 +1,4 @@
-const nombre = localStorage.getItem('nombreUsuario');
+const nombre = localStorage.getItem('nameK');
 if (nombre){
     document.getElementById.getItem('mensajeBienvenida').textContent = 
     'Hi, ${nombre}! Welcome to my portafolio'= 'index.html';
