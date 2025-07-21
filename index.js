@@ -3,7 +3,7 @@ function namek(){
     localStorage.setItem('nombreUsuario', nombre);
     window.location.href = 'index.hmtl';
 }
-const canvas = document.getElementById('partticlesCanva');
+const canvas = document.getElementById('particlesCanva');
 const ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
