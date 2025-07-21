@@ -4,6 +4,7 @@ body {
   padding: 0;
   overflow: hidden;
   background: #1f5f5b; 
+  box-shadow: 2px -2px 7px 2px #FF1493, -2px 2px 7px 2px #0CFFF4;
   color: #49b265; 
 }
 canvas{
