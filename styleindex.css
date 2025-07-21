@@ -10,11 +10,14 @@ canvas{
   display: block;
 }
 
-.titulo {
+header {
   font-size: 50px;
   text-align: center;
+  animation: backwards;
+  background: none;
 }
-.boton{
+
+#boton{
   text-align: center;
   text-decoration: none;
   background-color: #3cd5ddee;
