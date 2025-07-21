@@ -10,9 +10,9 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const particles =  [];
-const particleCount = 200;
+const particleCount = 150;
 
-class particle {
+class Particle {
     constructor(){
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
@@ -39,7 +39,7 @@ class particle {
 }
 
 for(let i = 0; i < particleCount; i++){
-    particles.push(new particle())
+    particles.push(new Particle());
 }
 
 function animate(){
@@ -54,6 +54,6 @@ function animate(){
 animate();
 
 window.addEventListener('resize', function(){
-    canvas.width = this.window.innerWidth;
-    canvas.height = this.window.innerHeight;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 });
