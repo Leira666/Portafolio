@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #1f5f5b; 
+  background: #1f5f5b; 
   color: #49b265; 
 }
 canvas{
@@ -19,4 +19,16 @@ canvas{
   text-align: center;
   text-decoration: none;
   background-color: #3cd5ddee;
+}
+a{
+  text-align: center;
+  text-decoration: none;
+}
+ul{
+  text-align: center;
+  text-decoration: none;
+}
+li{
+  text-align: center;
+  text-decoration: none;
 }
