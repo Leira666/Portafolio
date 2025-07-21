@@ -1,7 +1,22 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
-  background-color: #2d3250; 
-  color: #69a7dc; 
+  overflow: hidden;
+  background-color: #1f5f5b; 
+  color: #49b265; 
+}
+canvas{
+  display: block;
+}
+
+.titulo {
+  font-size: 50px;
+  text-align: center;
+  animation:backwards;
+}
+.boton{
+  text-align: center;
+  text-decoration: none;
+  background-color: #3cd5ddee;
 }
