@@ -3,9 +3,9 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: #1f5f5b; 
+  background: #000000; 
   box-shadow: 2px -2px 7px 2px #FF1493, -2px 2px 7px 2px #0CFFF4;
-  color: #49b265; 
+  color: #8362fa; 
 }
 canvas{
   display: block;
@@ -16,6 +16,8 @@ header {
   text-align: center;
   animation: backwards;
   background: none;
+  padding: 10px;
+  width: auto;
 }
 
 #boton{
