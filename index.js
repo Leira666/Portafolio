@@ -11,7 +11,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const particles =  [];
-const particleCount = 150;
+const particleCount = 200;
 
 class Particle {
     constructor(){
