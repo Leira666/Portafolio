@@ -20,6 +20,7 @@ header {
 }
 h1{
   color: #ffffff;
+  background-color: transparent;
 }
 #boton{
   text-align: center;
@@ -30,6 +31,7 @@ h1{
 a{
   text-align: center;
   text-decoration: none;
+  background-color: transparent;
   font-size: 16px;
   color: #ffffff;
 }
