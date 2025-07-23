@@ -11,12 +11,19 @@ canvas{
 }
 
 header {
-  font-size: 50px;
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+  font-size: 30px;
   text-align: center;
   animation: backwards;
   background-color: transparent;
   padding: 10px;
   width: auto;
+  box-shadow:2px 2px 2px 2px rgba(51, 255, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #titulo{
   background-color: transparent;
