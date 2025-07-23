@@ -2,9 +2,7 @@ body {
   font-family:'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background: #031926; 
-  box-shadow: 2px -2px 7px 2px #FF1493, -2px 2px 7px 2px #0CFFF4;
 }
 canvas{
   display: block;
@@ -24,33 +22,4 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#titulo{
-  background-color: transparent;
-}
-h1{
-  color: #ffffff;
-  background-color: transparent;
-}
-#boton{
-  text-align: center;
-  text-decoration: none;
-  background-color: transparent;
-  list-style-type: none;
-  justify-content: center;
-}
-a{
-  text-align: center;
-  text-decoration: none;
-  background-color: transparent;
-  font-size: 16px;
-  color: #ffffff;
-}
-ul{
-  text-align: center;
-  text-decoration: none;
-}
-li{
-  text-align: center;
-  text-decoration: none;
 }
