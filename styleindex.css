@@ -5,7 +5,6 @@ body {
   overflow: hidden;
   background: #000000; 
   box-shadow: 2px -2px 7px 2px #FF1493, -2px 2px 7px 2px #0CFFF4;
-  color: #8362fae9; 
 }
 canvas{
   display: block;
@@ -15,19 +14,24 @@ header {
   font-size: 50px;
   text-align: center;
   animation: backwards;
-  background: none;
+  background-color: transparent;
   padding: 10px;
   width: auto;
 }
-
+h1{
+  color: #ffffff;
+}
 #boton{
   text-align: center;
   text-decoration: none;
-  background-color: #3cd5ddee;
+  background-color: transparent;
+  list-style-type: none;
 }
 a{
   text-align: center;
   text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
 }
 ul{
   text-align: center;
