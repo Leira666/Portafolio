@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: #000000; 
+  background: #031926; 
   box-shadow: 2px -2px 7px 2px #FF1493, -2px 2px 7px 2px #0CFFF4;
 }
 canvas{
@@ -18,11 +18,11 @@ header {
   padding: 10px;
   width: auto;
 }
-h1{
-  color: #ffffff;
+#titulo{
   background-color: transparent;
 }
-#titulo{
+h1{
+  color: #ffffff;
   background-color: transparent;
 }
 #boton{
@@ -30,6 +30,7 @@ h1{
   text-decoration: none;
   background-color: transparent;
   list-style-type: none;
+  justify-content: center;
 }
 a{
   text-align: center;
