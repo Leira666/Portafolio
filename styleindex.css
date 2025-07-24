@@ -7,6 +7,9 @@ body {
 }
 canvas{
   display: block;
+  position: fixed;
+  z-index: 1;
+
 }
 
 #titulo{
@@ -16,13 +19,14 @@ canvas{
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  background-color: #468189;
+  background-color: rgba(70, 129, 137);
   padding: 10px;
   width: auto;
   box-shadow:2px 2px 2px 2px rgba(51, 255, 238, 0.727);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 .hello{
   font-size: 20px;
