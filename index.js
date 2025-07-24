@@ -1,9 +1,14 @@
-function namek(){
-    const nombre = document.getElementById('nombreUsuario').value;
-    localStorage.setItem('nombreUsuario', nombre);
-    window.location.href = 'index.hmtl';
-}
+const urlParams = new URLSearchParams(window.location.search);
+const name = urlParams.get('name');
 
+window.onload = function(){
+    if (name){
+        document.getElementById('userName').textContent = name;
+    }else{
+        document.getElementById('userName').textContent = 'Stranger'
+    }
+};
+//fondo canvas
 const canvas = document.getElementById('particlesCanvas');
         const ctx = canvas.getContext('2d');
 
