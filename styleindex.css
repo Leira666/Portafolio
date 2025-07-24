@@ -14,14 +14,14 @@ canvas{
 }
 
 #titulo{
- position: absolute;
+ position: fixed;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
  width: auto;
  height: auto;
  padding: 20px;
- border-radius: 100px;
+ border-radius: 50px;
  text-align: center;
  background-color: rgba(70, 129, 137, 0.8);
  display: flex;
@@ -38,10 +38,8 @@ canvas{
 #boton{
   width: 25px;
   height: 10px;
+  background-color: #96c9e7;
   border-radius: 10px;
   font-size: 15px;
   color: #f4e9cd;
-}
-ul{
-  list-style: none;
 }
