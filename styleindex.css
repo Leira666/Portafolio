@@ -36,24 +36,17 @@ canvas{
   color: #f4e9cd;
 }
 #boton{
-  width: 50px;
-  height: 20px;
+  width: 70px;
+  height: 25px;
   background-color: #96c9e7;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 20px;
   color: #f4e9cd;
 }
 #To {
   margin-bottom: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #ffffffe7;
   box-shadow: 0 2px 5px 0 #031926;
-  font-size: 15px;
-  transition: all 0.3s ease;
-}
-
-#To:focus{
-  outline: none;
-  border-color: #4a90e2;
-  box-shadow: #0f3b55;
+  font-size: 20px;
 }
