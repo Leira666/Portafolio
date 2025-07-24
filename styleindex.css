@@ -20,7 +20,7 @@ canvas{
  transform: translate(-50%, -50%);
  width: auto;
  height: auto;
- padding: 10px;
+ padding: 20px;
  border-radius: 100px;
  text-align: center;
  background-color: rgba(70, 129, 137, 0.8);
