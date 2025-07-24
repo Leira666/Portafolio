@@ -4,6 +4,7 @@ body {
   padding: 0;
   overflow: hidden;
   background: #031926; 
+  position: relative;
 }
 canvas{
   display: block;
