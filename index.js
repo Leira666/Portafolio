@@ -1,11 +1,11 @@
 const urlParams = new URLSearchParams(window.location.search);
-const name = urlParams.get('name');
+const name = urlParams.get(`name`);
 
 window.onload = function(){
     if (name){
         document.getElementById('userName').textContent = name;
     }else{
-        document.getElementById('userName').textContent = 'Stranger'
+        document.getElementById('userName').textContent = 'Stranger';
     }
 };
 //fondo canvas
