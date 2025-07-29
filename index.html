@@ -11,11 +11,13 @@
         <div id="titulo">
             <h1 class="hello">Hi! whats your name?</h1>
             
-            <div id="To"><input type="text" name="name"></div>
-            
+            <form action="Blog.html">
+                <label for="name">insert your name:</label>
+                <div id="To"><input type="text" name="name" id="name" required pattern="[a-zA-Z\s]+" maxlength="15"></div>
             <div id="boton">
-                <a href="Blog.html">Open</a>
+                <button type="submit">Done</button>
             </div>
+            </form>
         </div>
     <!--background canvas-->
     <script src="index.js"></script>

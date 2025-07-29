@@ -1,9 +1,11 @@
-const urlParams = new URLSearchParams(window.location.search);
-const name = urlParams.get(`name`);
 
-window.onload = function(){
-    if (name){
-        document.getElementById('userName').textContent = name;
+//pedir nombre
+const urlParams = new URLSearchParams(window.location.search);
+const algo = urlParams.get('name');
+
+window.onload = function() {
+    if (algo){
+        document.getElementById('userName').textContent = algo;
     }else{
         document.getElementById('userName').textContent = 'Stranger';
     }
