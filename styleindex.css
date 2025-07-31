@@ -71,28 +71,44 @@ p{
 
 /*figura del cuerpo*/
 
-.human{
+#human{
   position: relative;
   width: 1000px;
   height: 500px;
   margin: 50px auto;
 }
 
-.head{
-  position: absolute;
+#head{
   width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  top: 10px;
-  left: 400px;
-  background: #5079b1;
+  height: 120px;
+  border-radius: 500px 500px 82px 43px;
+  top: 20px;
+  left: 350px;
+  transform: rotate(-50deg);
 }
 
-.neck{
-  position: absolute;
+#neck{
   width: 60px;
   height: 50px;
   left: 470px;
   top: 200px;
+}
+
+#craneo{
+  width: 30px;
+  height: 30px;
+  left: ;
+  top: ;
+}
+#nose{
+  width: 30px;
+  height: 30px;
+  left: ;
+  top: ;
+}
+
+.posicion{
+  position: absolute;
   background: #5079b1;
+  z-index: 2;
 }
