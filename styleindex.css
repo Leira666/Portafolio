@@ -73,20 +73,26 @@ p{
 
 .human{
   position: relative;
-  width: 150px;
-  height: 300px;
+  width: 1000px;
+  height: 500px;
   margin: 50px auto;
 }
 
 .head{
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  top: 0;
-  left: 45px;
+  top: 10px;
+  left: 400px;
+  background: #5079b1;
 }
 
 .neck{
   position: absolute;
+  width: 60px;
+  height: 50px;
+  left: 470px;
+  top: 200px;
+  background: #5079b1;
 }
