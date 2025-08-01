@@ -106,7 +106,7 @@ p{
   height: 75px;
   left: 90px;
   top: 140px;
-  clip-path: polygon(50% 0%, 0% 100% );
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100% );
 }
 
 .posicion{
