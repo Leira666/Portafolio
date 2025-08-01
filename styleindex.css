@@ -80,8 +80,8 @@ p{
 
 #head{
   width: 200px;
-  height: 120px;
-  border-radius: 500px 500px 82px 43px;
+  height: 112px;
+  border-radius: 600px 600px 103px 43px;
   top: 20px;
   left: 350px;
   transform: rotate(-50deg);
@@ -95,16 +95,18 @@ p{
 }
 
 #craneo{
-  width: 30px;
-  height: 30px;
-  left: ;
-  top: ;
+  width: 70px;
+  height: 70px;
+  left: 131;
+  top: 65px;
+  border-radius: 50px;
 }
 #nose{
-  width: 30px;
-  height: 30px;
-  left: ;
-  top: ;
+  width: 85px;
+  height: 75px;
+  left: 90px;
+  top: 140px;
+  clip-path: polygon(50% 0%, 0% 100% );
 }
 
 .posicion{
