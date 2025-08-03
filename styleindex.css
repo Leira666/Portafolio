@@ -114,3 +114,7 @@ p{
   background: #5079b1;
   z-index: 2;
 }
+
+#guia{
+  align-items: center;
+}
