@@ -79,8 +79,8 @@ p{
 }
 
 #head{
-  width: 325px;
-  height: 112px;
+  width: 324px;
+  height: 324px;
   border-radius: 50%;
   top: -12px;
   left: 365px;
@@ -95,18 +95,18 @@ p{
 }
 
 #craneo{
-  width: 135px;
-  height: 89px;
-  left: 15px;
-  top: 277px;
-  border-radius: 50px;
-  transform: rotate(53deg);
+  width: 130px;
+  height: 95px;
+  left: 25px;
+  top: 278px;
+  border-radius: 0px 144px 99px 99px;
+  transform: rotate(50deg);
 }
 #nose{
   width: 76px;
-  height: 86px;
-  left: 157px;
-  top: 281px;
+  height: 91px;
+  left: 156px;
+  top: 279px;
   transform: rotate(27deg);
   border-radius: 0px 0px 21px 63px;
 }
@@ -124,6 +124,30 @@ p{
   height: 804px;
   bottom: -92px;
   left: 380px;
-  transform: rotateX('180deg');
+  transform: rotateX(180deg);
+}
+#demas{
+  width: 100px;
+  height: 100px;
+  left: 28px;
+  top: 254px;
+  border-radius: 50%;
+  
+}
+#demasdos{
+  width: 73px;
+  height: 73px;
+  left: 65px;
+  top: 320px;
+  border-radius: 50px;
+  transform: rotate(59deg);
 
+}
+#demastres{
+   width: 73px;
+   height: 73px;
+}
+#demascuatro{
+   width: 73px;
+   height: 73px;
 }
