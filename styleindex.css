@@ -88,10 +88,11 @@ p{
 }
 
 #neck{
-  width: 60px;
-  height: 50px;
-  left: 470px;
-  top: 200px;
+  width: 146px;
+  height: 144px;
+  left: 402px;
+  top: 252px;
+  border-radius: 0 0 20px 20px;
 }
 
 #craneo{
@@ -138,7 +139,7 @@ p{
   width: 131px;
   height: 78px;
   left: 49px;
-  top: 293px;
+  top: 291px;
   border-radius: 50px;
   transform: rotate(115deg);
 
@@ -146,8 +147,16 @@ p{
 #demastres{
    width: 73px;
    height: 73px;
+   top: 278px;
+   left: 239px;
+   border-radius: 6%;
+   transform: rotate(39deg);
 }
 #demascuatro{
    width: 73px;
    height: 73px;
+   left: 91px;
+   top: 302px;
+   border-radius: 0 0 6px 10px;
+   transform: rotate(53deg);
 }
