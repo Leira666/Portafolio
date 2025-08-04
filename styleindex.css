@@ -79,11 +79,11 @@ p{
 }
 
 #head{
-  width: 200px;
+  width: 325px;
   height: 112px;
-  border-radius: 600px 600px 103px 43px;
-  top: 20px;
-  left: 350px;
+  border-radius: 50%;
+  top: -12px;
+  left: 365px;
   transform: rotate(-50deg);
 }
 
@@ -95,18 +95,20 @@ p{
 }
 
 #craneo{
-  width: 80px;
-  height: 80px;
-  left: 1119;
-  top: 65px;
+  width: 135px;
+  height: 89px;
+  left: 15px;
+  top: 277px;
   border-radius: 50px;
+  transform: rotate(53deg);
 }
 #nose{
-  width: 85px;
-  height: 75px;
-  left: 90px;
-  top: 140px;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100% );
+  width: 76px;
+  height: 86px;
+  left: 157px;
+  top: 281px;
+  transform: rotate(27deg);
+  border-radius: 0px 0px 21px 63px;
 }
 
 .posicion{
@@ -118,7 +120,10 @@ p{
 #guia{
   align-items: center;
   position: absolute;
-  width: 80px;
-  height: 80px;
-  
+  width: 804px;
+  height: 804px;
+  bottom: -92px;
+  left: 380px;
+  transform: rotateX('180deg');
+
 }
