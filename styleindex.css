@@ -76,6 +76,7 @@ p{
   width: 1000px;
   height: 500px;
   margin: 50px auto;
+  opacity: 0.7;
 }
 
 #head{
@@ -145,11 +146,11 @@ p{
 
 }
 #demastres{
-   width: 73px;
-   height: 73px;
-   top: 278px;
-   left: 239px;
-   border-radius: 6%;
+   width: 19px;
+   height: 29px;
+   top: 286px;
+   left: 232px;
+   border-radius: 4%;
    transform: rotate(39deg);
 }
 #demascuatro{
