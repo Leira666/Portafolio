@@ -77,24 +77,27 @@ p{
   height: 500px;
   margin: 50px auto;
   opacity: 0.7;
-  
+  top: 50px;
+  background: #486F96;
+  box-shadow: 0 0 15px 5px rgba(0, 179, 255, 0.7);
 }
 
 #head{
   width: 324px;
   height: 324px;
   border-radius: 50%;
-  top: -12px;
-  left: 365px;
+  top: 67px;
+  left: 134px;
   transform: rotate(-50deg);
 }
 
 #neck{
-  width: 146px;
-  height: 144px;
-  left: 402px;
-  top: 252px;
+  width: 168px;
+  height: 165px;
+  left: 185px;
+  top: 330px;
   border-radius: 0 0 20px 20px;
+  bottom: 50px;
 }
 
 #craneo{
@@ -135,7 +138,6 @@ p{
   left: 28px;
   top: 254px;
   border-radius: 50%;
-  
 }
 #demasdos{
   width: 131px;
@@ -149,7 +151,7 @@ p{
 #demastres{
    width: 19px;
    height: 29px;
-   top: 286px;
+   top: 284px;
    left: 232px;
    border-radius: 4%;
    transform: rotate(39deg);
