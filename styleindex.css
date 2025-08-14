@@ -166,6 +166,18 @@ p{
    transform: rotate(53deg);
 }
 
-#cerebro{
- 
+.cerebro{
+ border-radius: 50px;
+}
+
+#web{
+  transform: rotate(50deg);
+}
+
+#android{
+  transform: rotate(50deg);
+}
+
+#sql{
+  transform: rotate(50deg);
 }
