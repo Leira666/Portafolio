@@ -165,3 +165,7 @@ p{
    border-radius: 0 0 6px 10px;
    transform: rotate(53deg);
 }
+
+#cerebro{
+  z-index: 3;
+}
