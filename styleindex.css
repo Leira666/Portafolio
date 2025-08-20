@@ -172,21 +172,23 @@ p{
 }
 
 #web{
-  width: 200px;
-  height: 200px;
-  left: 89px;
-  top: 89px;
+  width: 100px;
+  height: 100px;
+  left: 151px;
+  top: 86px;
+  border-radius: 50%;
 }
 
 #android{
   width: 100px;
   height: 100px;
-  left: 107px;
-  top: 60px;
+  left: 85px;
+  top:55px;
 }
 
 #sql{
-  width: 30px;
-  height: 30px;
-  left: 60px;
+  width: 100px;
+  height: 100px;
+  left: 156px;
+  top: 153px;
 }
