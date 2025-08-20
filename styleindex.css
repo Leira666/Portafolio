@@ -167,25 +167,25 @@ p{
 }
 
 .cerebro{
- border-radius: 50px;
+  transform: rotate(50deg);
+  position: absolute;
 }
 
 #web{
-  transform: rotate(50deg);
-  width: 30px;
-  height: 30px;
-  left: 10px;
+  width: 200px;
+  height: 200px;
+  left: 89px;
+  top: 89px;
 }
 
 #android{
-  transform: rotate(50deg);
-  width: 50px;
-  height: 50px;
-  left: 30px;
+  width: 100px;
+  height: 100px;
+  left: 107px;
+  top: 60px;
 }
 
 #sql{
-  transform: rotate(50deg);
   width: 30px;
   height: 30px;
   left: 60px;
